@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.caixa {
+  height: 100vh;
+  width: 100vw;
+}
+
+.caixa-esquerda {
+  display: inline-block;
+  width: 60%;
+  margin-top: 16%;
+  padding-left: 100px;
+  padding-right: 200px;
+}
+
+.caixa-direita {
+  display: inline-block;
+  background-color: rgba(93, 93, 125, 0.16);
+  height: 100vh;
+  width: 40%;
+  position: absolute;
+}
+
+img {
+  position: relative;
+  top: 11%;
+  right: 130px;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 80px;
+  color: #5d5d7d;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 28px;
+  line-height: 48px;
+  color: #5d5d7d;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  width: 269px;
+  height: 62px;
+  background-color: #9499ea;
+  box-shadow: 0px 10px 24px;
+  color: #ffffffff;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+button:active {
+  color: transparent;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+a {
+  font-size: 28px;
+  line-height: 41px;
+  color: #5d5d7d;
+  margin-right: 41px;
+  cursor: pointer;
+}
+
+a:active {
+  color: transparent;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+a:nth-child(2) {
+  opacity: 0.4;
+}
+a:nth-child(2):hover {
+  opacity: 0.1;
+}
+
+header {
+  margin-top: 24px;
+  margin-left: 57px;
+}
+
+@media screen and (max-width: 900px) {
+  .caixa-esquerda {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    padding-left: 0%;
+    padding-right: 0px;
+    margin-left: 0%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .caixa-direita {
+    padding-top: 5px;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    position: static;
+    align-items: center;
+    text-align: center;
+    padding-right: 5%;
+  }
+
+  img {
+    position: static;
+    margin-top: 10%;
+    margin-left: 0;
+    max-width: 65vw;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 58px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-align: center left;
+    line-height: 1;
+  }
+
+  p {
+    font-size: 25px;
+    line-height: 38px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  a {
+    font-size: 28px;
+    line-height: 21px;
+    margin-right: 50px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+}
