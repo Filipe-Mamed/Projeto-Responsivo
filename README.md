@@ -2,16 +2,6 @@
 
 Descrição breve sobre o que o projeto faz.
 
-## Índice
-
-- [Introdução](#introdução)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Contato](#contato)
-
 ## Introdução
 
 Explique o propósito do projeto, os problemas que ele resolve e qualquer contexto relevante. Inclua uma captura de tela ou GIF se necessário.
