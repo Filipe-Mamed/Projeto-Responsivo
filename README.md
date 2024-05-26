@@ -9,5 +9,5 @@ Se adéqua às telas a partir de 900px.
 
 ## Introdução
 
-Explique o propósito do projeto, os problemas que ele resolve e qualquer contexto relevante. Inclua uma captura de tela ou GIF se necessário.
+<img src="https://github.com/Filipe-Mamed/Primeiro-Projeto-Responsivo/blob/main/img/Responsividade.png?raw=true" alt="imagem-logo"/>
 
