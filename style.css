@@ -122,6 +122,10 @@ header {
     padding-right: 5%;
   }
 
+  header{
+    display: none;
+  }
+
   img {
     position: static;
     margin-top: 10%;
